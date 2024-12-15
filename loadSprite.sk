@@ -1,0 +1,8 @@
+function loadSprite(unicode: string, file: string):
+	set {-sprite::%{_file}%} to {_unicode}
+
+function sprite(file: string):: string:
+	return {-sprite::%{_file}%}
+
+function spr(file: string):: string:
+	return {-sprite::%{_file}%}
